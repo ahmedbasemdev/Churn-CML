@@ -1,9 +1,9 @@
 name: churn-cml
 on: [push]
-
+permissions: write-all
 jobs:
   run:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
